@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type=text/css>
+    .navbar {
+      color: aliceblue;
+      width: auto;
+    }
+
+    .login {
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      padding: 80px;
+      background: lightcyan;
+      border-radius: 15px;
+    }
+
+    .rightdiv {
+      float: left;
+    }
+  </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Document</title>
 </head>
+
 <body>
   <div class="navbar">
-    <div style="text-align: left;">                                                                                                                                                                                             
-        <img src="https://skysysonline.com/images/Skysys-Infosolutions.png">
-        </div>
-        <div style="text-align: right;word-spacing: 30px; border-spacing: 10px;">
-        <a href="https://skysysonline.com"><i class="fa fa-home" style="font-size:20px"></i><strong>Home</strong></a>
+    <img src="https://skysysonline.com/images/Skysys-Infosolutions.png">
 
-        <a href="https://skysysonline.com/services.html"><i class="fa fa-search"></i><strong>Search</strong></a>
-        
-        <a href="https://skysysonline.com/contact.html"><i class="fa fa-envelope"></i><strong>Contact</strong></a>
-        <br>
-        <br>
-        </div>
-              <h1>GeeksforGeeks</h1>
-              <p>How many times were you frustrated while looking out
-              for a good collection of programming/algorithm/interview
-              questions? What did you expect and what did you get?
-              This portal has been created to provide well written,
-              well thought and well-explained solutions for selected
-              questions.
-            </p>
-              <h2>GeeksforGeeks</h2>
-              <p>GCET is an entrance test for the extensive classroom
-              programme by GeeksforGeeks to build and enhance Data
-              Structures and Algorithm concepts, mentored by Sandeep
-              Jain (Founder & CEO, GeeksforGeeks).He has 7 years of
-              teaching experience and 6 years of industry experience.
-            </p>
-    
-              <h1>GeeksforGeeks</h1>
-              <p>How many times were you frustrated while looking out
-              for a good collection of programming/algorithm/interview
-              questions? What did you expect and what did you get?
-              This portal has been created to provide well written,
-              well thought and well-explained solutions for selected
-              questions.
-              </p>
-              <h2>GeeksforGeeks</h2>
-              <p>How many times were you frustrated while looking out
-              for a good collection of programming/algorithm/interview
-              questions? What did you expect and what did you get?
-              This portal has been created to provide well written,
-              well thought and well-explained solutions for selected
-              questions.	
-              </p>
-          
+    <div style="text-align: right;word-spacing: 15px;">
+      <a href="#"><i class="fa fa-home" style="font-size:20px"></i><strong>Home</strong></a>
+
+      <a href="https://skysysonline.com/services.html"><i class="fa fa-search"></i><strong>Search</strong></a>
+
+      <a href="https://skysysonline.com/contact.html"><i class="fa fa-envelope"></i><strong>Contact</strong></a>
+    </div>
+  </div>
+  <br>
+  <div class="login">
+    <form action="https://skysysonline.com" method="post">
+      <label>
+        Username <span class="req">*</span>
+        <input type="text" required autocomplete="off" />
+      </label>
+      <br>
+      <br>
+      <label>
+        Password <span class="req">*</span>
+        <input type="password" required autocomplete="off" />
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="checkbox">Remember me
+      </label>
+      <br>
+      <br>
+      <a href="forgotpassword.html"><strong>forgot password</strong></a>
+      <br>
+      <br>
+      <label><input type="submit" style="text-align: center;"></label>
+    </form>
+  </div>
+
 </body>
+
 </html>
