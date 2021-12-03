@@ -1,25 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>welcome to skysys</title>
+    <style type=text/css>
+        .navbar {
+            color: aliceblue;
+            width: auto;
+        }
+        .signup {
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      padding: 15px;
+      background: lightcyan;
+      border-radius: 15px;
+    }
+    </style>
 </head>
+
 <body>
-    
+
     <div class="navbar">
-        <div style="border-style:solid;width: auto; height: auto;background-color: darkcyan; border: solid black; ">
-            <H1 style="text-align: center;color: blue;"><em>Welcome to Skysys Infosolutions</em></H1>
-            <a href="#"><i class="fa fa-fw fa-home" style="font-size:20px"></i> Home</a>
-            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-            <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-            </div>
-            </div>
+        <H1 style="text-align: center;color: blue;"><em>Welcome to Skysys Infosolutions</em></H1>
+        <div class="" style="text-align: right; word-spacing: 15px;">
+            <a href="index.html"><i class="fa fa-fw fa-home" style="font-size:20px; text-align: right;"></i> login</a>
+            <a href="https://skysysonline.com/services.html"><i class="fa fa-fw fa-search;"></i> Search</a>
+            <a href="https://skysysonline.com/contact.html"><i class="fa fa-fw fa-envelope;"></i> Contact</a>
+        </div>
+    </div>
+    <div class="signup">
+        <h2 style="text-align: center;">Signup</h2>
 
-            <p>Welcome to skysys Infosolutions you are successfuly joined to our company</p> 
-                <p> The following are your user id and password please note it for your reference </p>
-
-                <p></p>
+        <form action="index.html" method="post">
+            <label>
+                Your name <span class="req">*</span>
+                <input type="text" required autocomplete="off" />
+            </label>
+            <br>
+            <br>
+            <label>
+                DOB <span class="req">*</span>
+                <input type="date" required autocomplete="off" />
+            </label>
+            <br>
+            <br>
+            <label>
+                Email <span class="req">*</span>
+                <input type="email" required autocomplete="off" />
+            </label>
+            <br>
+            <br>
+            <label>
+                Phone <span class="req">*</span>
+                <input type="tel" id="phone" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits"
+                    required autocomplete="off" />
+            </label>
+            <br>
+            <br>
+            <label>
+                Password <span class="req">*</span>
+                <input type="password" required autocomplete="off" />
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox">Remember me
+            </label>
+            <br>
+            <br>
+            <label><input type="submit" style="text-align: center;"></label>
+        </form>
+    </div>
 </body>
+
 </html>
